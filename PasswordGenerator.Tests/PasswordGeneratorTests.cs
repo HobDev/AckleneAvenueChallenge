@@ -3,12 +3,12 @@ using Xunit;
 
 namespace PasswordGenerator.Tests
 {
-    public class UnitTest1
+    public class GeneratedPasswordTest
     {
      [Theory]
 [InlineData("q23enjiu")]
 [InlineData("12gy675")]
-public void DefaultPasswordLengthShouldBeEight(string value)
+public void PasswordShouldBeStrong(string value)
 {
   GeneratePassword passwordGenerator=new GeneratePassword();
 
