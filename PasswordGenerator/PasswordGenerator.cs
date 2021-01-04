@@ -20,7 +20,7 @@ namespace PasswordGenerator
             }
             else
             {
-                   Console.WriteLine("Weak Password! User Account not created");
+                   Console.WriteLine(isPasswordStrong.Item2);
             }
         }
 
