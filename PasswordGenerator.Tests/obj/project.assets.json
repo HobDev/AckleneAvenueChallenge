@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    "net5.0": {
       "coverlet.collector/1.3.0": {
         "type": "package",
         "build": {
@@ -1651,7 +1651,7 @@
       },
       "PasswordGenerator/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
           "bin/placeholder/PasswordGenerator.dll": {}
         },
@@ -5629,7 +5629,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    "net5.0": [
       "Microsoft.NET.Test.Sdk >= 16.7.1",
       "PasswordGenerator >= 1.0.0",
       "coverlet.collector >= 1.3.0",
@@ -5638,39 +5638,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/home/gitpod/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\AckleneAvenueChallenge\\PasswordGenerator.Tests\\PasswordGenerator.Tests.csproj",
+      "projectUniqueName": "/workspace/AckleneAvenueChallenge/PasswordGenerator.Tests/PasswordGenerator.Tests.csproj",
       "projectName": "PasswordGenerator.Tests",
-      "projectPath": "C:\\Users\\User\\Desktop\\AckleneAvenueChallenge\\PasswordGenerator.Tests\\PasswordGenerator.Tests.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\AckleneAvenueChallenge\\PasswordGenerator.Tests\\obj\\",
+      "projectPath": "/workspace/AckleneAvenueChallenge/PasswordGenerator.Tests/PasswordGenerator.Tests.csproj",
+      "packagesPath": "/home/gitpod/.nuget/packages/",
+      "outputPath": "/workspace/AckleneAvenueChallenge/PasswordGenerator.Tests/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/home/gitpod/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\AckleneAvenueChallenge\\PasswordGenerator\\PasswordGenerator.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\AckleneAvenueChallenge\\PasswordGenerator\\PasswordGenerator.csproj"
+            "/workspace/AckleneAvenueChallenge/PasswordGenerator/PasswordGenerator.csproj": {
+              "projectPath": "/workspace/AckleneAvenueChallenge/PasswordGenerator/PasswordGenerator.csproj"
             }
           }
         }
@@ -5682,8 +5675,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -5721,7 +5714,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/gitpod/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }

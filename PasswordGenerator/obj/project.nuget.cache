@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/5wMMVCk/1KXKXvyVJzBkvzUZJgHakq6c8apUE7WQUAtFIJgtQgdyk1qCJb0nnnI+9r5GkgTprvpXQTY/D6ETg==",
+  "dgSpecHash": "R9P9jKMokGV8w5411xMKlZH4kzq8NfprLSjz6TSa176TsrxSwSAlwOmYajjK3frA+9EXKHkI4ulSIDW63pP6vQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\AckleneAvenueChallenge\\PasswordGenerator\\PasswordGenerator.csproj",
+  "projectFilePath": "/workspace/AckleneAvenueChallenge/PasswordGenerator/PasswordGenerator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
