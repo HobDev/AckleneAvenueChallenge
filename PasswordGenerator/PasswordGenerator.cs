@@ -11,7 +11,7 @@ namespace PasswordGenerator
         {
             Console.WriteLine("User Name!");
             string userName=Console.ReadLine();
-            Console.WriteLine("Password! Must include a Capital letter, a small letter, a special character(!@#$%^&*) and a digit. The password lenght should more than 8");
+            Console.WriteLine("Password! Must include a Capital letter, a small letter, a special character and a digit. The password lenght should be more than 8");
             string password=Console.ReadLine();
             (bool, string) isPasswordStrong=VerifyPasswordStrength(password);
             if(isPasswordStrong.Item1)

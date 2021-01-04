@@ -5644,11 +5644,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\User\\Desktop\\AckleneAvenueChallenge\\PasswordGenerator.Tests\\PasswordGenerator.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\AckleneAvenueChallenge\\PasswordGenerator.Tests\\PasswordGenerator.Tests.csproj",
       "projectName": "PasswordGenerator.Tests",
-      "projectPath": "c:\\Users\\User\\Desktop\\AckleneAvenueChallenge\\PasswordGenerator.Tests\\PasswordGenerator.Tests.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\AckleneAvenueChallenge\\PasswordGenerator.Tests\\PasswordGenerator.Tests.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\User\\Desktop\\AckleneAvenueChallenge\\PasswordGenerator.Tests\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\AckleneAvenueChallenge\\PasswordGenerator.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -5669,8 +5669,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "c:\\Users\\User\\Desktop\\AckleneAvenueChallenge\\PasswordGenerator\\PasswordGenerator.csproj": {
-              "projectPath": "c:\\Users\\User\\Desktop\\AckleneAvenueChallenge\\PasswordGenerator\\PasswordGenerator.csproj"
+            "C:\\Users\\User\\Desktop\\AckleneAvenueChallenge\\PasswordGenerator\\PasswordGenerator.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\AckleneAvenueChallenge\\PasswordGenerator\\PasswordGenerator.csproj"
             }
           }
         }
