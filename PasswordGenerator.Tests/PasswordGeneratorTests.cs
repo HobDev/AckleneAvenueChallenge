@@ -6,14 +6,13 @@ namespace PasswordGenerator.Tests
     public class GeneratedPasswordTest
     {
      [Theory]
-[InlineData("q23enjiu")]
-[InlineData("12gy675")]
+[InlineData("Q23enjiu*")]
+[InlineData("mg0+u7z!")]
 public void PasswordShouldBeStrong(string value)
 {
-  GeneratePassword passwordGenerator=new GeneratePassword();
 
-   bool isValid=passwordGenerator.VerifyPassword(value);
-    Assert.True(isValid, "Password length should be 8");
+   (bool, string) isValid=GeneratePassword.VerifyPasswordStrength(value);
+    Assert.True(isValid.Item1, isValid.Item2);
     
 }
     }
